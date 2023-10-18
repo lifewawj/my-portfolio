@@ -1,72 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="./assets/style.css" />
+    </head>
 
-<!--CONTENT IN PAGE-->
-<body>
-    <!--NAVIGATION BAR-->
-    <nav>
-        <section alt="Logo">AJ Arevalo</section>
+    <body>
+        <!-- NAVIGATION BAR-->
+        <nav>
+            <section class="logo">AJ Arevalo</section>
+            <section>
+                <ul class="nav-links">
+                    <li><a href="#profile">About</a></li>
+                    <!-- <li><a href="#experience">Experience</a></li> -->
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </section>
+        </nav>
+
+        <!-- MAIN PAGE IMG -->
+        <div>
+            <img src="./assets/setup.JPG" alt="My Setup" class="img-main">
+        </div>
+
+        <!-- PROFILE -->
+        <section id="profile" class="section-shadow">
+            <div class="profile-pic">
+                <img src="./assets/pfp-1.png" alt="Profile Pic of AJ">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, my name is</p>
+                <h1 class="title">AJ AREVALO</h1>
+                <p class="section__text__p2">UCSD Bootcamp Student</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'"
+                    >Contact me!</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/white-linkedin.png" alt="LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/avarevalo'">
+                    <img src="./assets/white-github.png" alt="GitHub Profile" class="icon" onclick="location.href='https://github.com/awjcodes'">
+                    <img src="./assets/white-X-logo.png" alt="X / Twitter Profile" class="icon-twitter" onclick="location.href='https://twitter.com/lifewawj'">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME -->
         <section>
-            <ul alt="nav-links">
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </section>
-    </nav>
-
-    <!--MAIN PAGE IMAGE-->
-     <section>
-        <img src="./assets/setup.JPG" alt="AJ's Setup">
-    </section>
-
-    <!---ABOUT ME SECTION-->
-    <div>
-        <section>
-            <img src="./assets/pfp-1.png" alt="Profile Pic of AJ">
+            <div class="about-container">
+                <h1 class="about-header">About Me</h1>
+                <p class="about_p1">AJ is a 20 year old Filipino-American
+                that was born and raised in Kodiak, Alaska and moved to San Diego, CA.
+                He is now attending as a student at UCSD's Coding Bootcamp, and in hopes of graduating sometime in 2024.
+                Not only just that AJ loves stream and to content creates on his spare time!
+                @lifewawj or @awpplejuice on all socials!
+            </p>
+            </div>
         </section>
 
-        <section>
-            <h2>About me</h2>
-            <h3>AJ Arevalo is a 20 year old Filipino-American,<br>
-                that was born and raised in Kodiak, Alaska and currently lives in San Diego, California.<br>
-                Is now currently a student for UCSD's Coding Bootcamp, in hopes of graduating!</h3>
-            <a href="#more-AJ">more about AJ</a>
+        <!-- PROJECTS -->
+        <section id="projects">
+            <div>
+                <p class="project-p1">Here are my</p>
+                <h1 class="project-header">Projects</h1>
+            </div>
+            <div class="project-container">
+                <img src="./assets/AJs-Notes-IMG.png" alt="AJs UCSD Bootcamp Coding Notes" class="project-img" onclick="location.href='https://awjcodes.github.io/pre-work-studyguide/'">
+            </div>
         </section>
-    </div>
 
-    <!---PROJECTS SECTION-->
-    <div>
-        <section alt="Projects-section">
-            <h2>Projects</h2>
-            <a alt="UCSD-Coding-Bootcamp-Notes" href="https://awjcodes.github.io/pre-work-studyguide/">AJ's Notes</a>
-        </section>
-    </div>
 
-    <!---CONTACT SECTION-->
-    <div>
-        <section alt="Contact-section">
-            <h2>Contact Info</h2>
-            <a href="https://github.com/awjcodes">Github</a>
-            <br>
-            <a href="">LinkedIn</a>
-            <h3>Email: 📩 arevaloaj01@gmail.com</h3>
-
-            <!--insert link tree to IG, YouTube, Twitter, TikTok, etc.-->
-            <a href=""></a>My Other Socials</h3>
-        </section>
-    </div>
-
-<!--FOOTER-->
-    <footer>
-        <script src="script.js"></script>
-    </footer>
-</body>
+        <!-- Contact Info -->
+        <footer id="contact" class="contact-container">
+            <div>
+                <h1 class="contact-header">Contact Info</h1>
+            </div>
+                <ul id="contact-list">
+                    <li><a href="mailto:arevaloaj01@gmail.com">📩 Email</a></li>
+                    <li><a href="https://github.com/awjcodes">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/avarevalo">LinkedIn</a></li>
+                    <li><a href="https://twitter.com/lifewawj">Twitter</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
