@@ -13,8 +13,11 @@ https://www.youtube.com/watch?v=ldwlOzRvYOU&t=13s
 
 ## Features
 
-Navigation Bar, gives the user the ability to be brought to certain sections to my page without having to scroll.
+Navigation Bar, 
+gives the user the ability to be brought to certain sections to my page without having to scroll.
 
-Contact Button, brings the user to my contact information on my page, showing them how they can contact me
+Contact Button, 
+brings the user to my contact information on my page, showing them how they can contact me
 
-Social Media Icons, when clicked the user is brought to my GitHub, LinkedIn, and Twitter Pages making it easy for the user to recognize the icons if they are familar with the icons/logo, interactable.
+Social Media Icons, 
+when clicked the user is brought to my GitHub, LinkedIn, and Twitter Pages making it easy for the user to recognize the icons if they are familar with the icons/logo, interactable.
