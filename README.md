@@ -5,7 +5,7 @@
 Instead of having a Traditional Resume that only shows text of who I am, what I have accomplished and my overall background. Being able to have a website that showcases my skills, talents, and work to the user and employer gives them a better understanding of who I am, and what I have achieved visually with a creative twist!
 
 ## Image(s)
-![AJ's my Portfolio Webpage]()
+![My Portfolio Webpage Image](assets/webpage_showcase_img.png)
 
 
 ## Link(s)
