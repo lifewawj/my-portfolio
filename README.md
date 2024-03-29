@@ -9,7 +9,7 @@ Instead of having a Traditional Resume that only shows text of who I am, what I 
 
 
 ## Link(s)
-Deplyed Appication: https://awjcodes.github.io/my-portfolio/
+Deplyed Appication: [https://awjcodes.github.io/my-portfolio/](https://lifewawj.github.io/my-portfolio/)
 
 
 ## Credits
